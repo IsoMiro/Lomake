@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lomake.js"></script> 
+    <title>Lomake</title>
+
+</head>
+<body>
+    <form>
+    <h1>Rekisteröitymislomake</h1>
+    <ul>
+    <div class="contaner">
+        <label for="inputfield"> Käyttäjä ID:</label> <input id="inputfield" type="text" required><br>
+        <br>
+        <label for="inputfield"> Salasana:</label> <input id="inputfield" type="text"><br>
+        <br>
+        <label for="inputfield"> Nimi:</label> <input id="inputfield" type="text"><br>
+        <br>
+        <label for="inputfield"> Osoite:</label> <input id="inputfield" type="text"><br>
+        <br>
+        <label for="boksi"> Maa:</label>
+        
+            <select id="boksi">
+                <option value="0">Valitse maa:</option>
+                <option value="1">Suomi</option>
+                <option value="2">Kanada</option>
+                <option value="3">Perämettä</option>
+                <option value="4">Florida</option>
+            </select>
+            <br>
+
+            <br><label for="inputfield"> Postinumero:</label> <input id="inputfield" type="text"> <br>
+            <br><label for="inputfield"> Sähköposti:</label> <input id="inputfield" type="text"><br>
+            
+            <br>
+            <label>Sukupuoli:</label>
+            <input type="radio" id="Mies" name="Sukupuoli" value="Mies">
+            <label for="Mies">Mies</label>
+            <input type="radio" id="Nainen" name="Sukupuoli" value="Nainen">
+            <label for="Nainen">Nainen</label>
+            <br>
+            <br><label>Kieli:</label>
+            <input type="checkbox" id="Kieli" name="Kieli" value="Suomi">
+            <label for="Kieli">Suomi</label>
+            <input type="checkbox" id="MuuKieli" name="MuuKieli" value="Muu">
+            <label for="MuuKieli">Muu kuin Suomi</label>
+            <br>
+            <br><label>Lisätietoja:</label> <br>
+            <textarea name="infoa" id="info" cols="50" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        
+</div>
+</ul>
+</form>
+</body>
+</html>
